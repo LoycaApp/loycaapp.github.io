@@ -117,10 +117,26 @@ The app scans your Loyalty Card (or Coupon) Barcode or QR code, so the next time
 				<!-- //container -->
 			</div>
 			<div class="banner-info">
+			
 				<!-- container -->
 				<div class="container">
+				<div class="container">
+						<div class="banner-button orange-button" style="margin-top:20px" >
+								<a href="#">
+								</a>
+						</div>
+						<script>
+							var baseUrl = window.location.href;
+							var deepLinking = "com.imaginationoverflow.loyca://share"
+							var finalurl = deepLinking + window.location.search;
+							$(".orange-button a").attr("href", finalurl );
+						</script>
+							</div>
 					<div class="col-md-7 banner-info-left" style="width:100%">
-						<h2 style="margin:2em 0 2em 0">Someone shared with you a card or coupon? Download <span style="color:#FC8114"><b>Loyca</b></span> for your iOS, Android or Windows Device, and it will automatically register the card or coupon!
+					
+						<h2 style="margin:1em 0 2em 0">
+						
+						Someone shared with you a card or coupon? Download <span style="color:#FC8114"><b>Loyca</b></span> for your iOS, Android or Windows Device, and it will automatically register the card or coupon!
 						</h2>
 						<div class="banner-buttons">
 							<div class="banner-button">
